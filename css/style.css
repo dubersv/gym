@@ -1,0 +1,32 @@
+
+
+
+/* Estilos personalizados */
+
+/* Cambiar color del texto en el encabezado */
+header h1 {
+    color: #ffffff;
+  }
+  
+  /* Cambiar color del texto en las secciones */
+  section h2,
+  section p {
+    color: #333333;
+  }
+  
+  /* Añadir margen inferior a los elementos de la galería */
+  #galeria .img-fluid {
+    margin-bottom: 20px;
+  }
+  
+  /* Cambiar color del botón de enviar en el formulario de contacto */
+  #contacto input[type="submit"] {
+    background-color: #5f41e3;
+    border-color: #100b0b;
+  }
+  
+  #contacto input[type="submit"]:hover {
+    background-color: #030202;
+    border-color: #cc0000;
+  }
+  
